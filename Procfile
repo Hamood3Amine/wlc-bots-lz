@@ -1,0 +1,1 @@
+client: node bot.js
