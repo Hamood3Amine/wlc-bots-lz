@@ -10,6 +10,9 @@ client.on('ready', () => {
 user.on('ready', () => {
   console.log(`Logged in as ${user.user.tag}!`);
 });
+mem.on('ready', () => {
+  console.log(`Logged in as ${mem.user.tag}!`);
+});
 
 
 
