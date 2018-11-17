@@ -17,8 +17,6 @@ client.on("guildMemberAdd", member => {
 let welcomer = member.guild.channels.find("name","dalida");
       if(!welcomer) return;
       if(welcomer) {
-         moment.locale('ar-ly');
-         var h = member.user;
      welcomer.send(`**Welcome To __Dalida__ Server ..**`);          
       }
 });
@@ -26,8 +24,6 @@ mem.on("guildMemberAdd", member => {
 let welcomer = member.guild.channels.find("name","dalida");
       if(!welcomer) return;
       if(welcomer) {
-         moment.locale('ar-ly');
-         var h = member.user;
      welcomer.send(`**Welcome To __Dalida__ Server ..**`);          
       }
 });
@@ -35,8 +31,6 @@ let welcomer = member.guild.channels.find("name","dalida");
 let welcomer = member.guild.channels.find("name","dalida");
       if(!welcomer) return;
       if(welcomer) {
-         moment.locale('ar-ly');
-         var h = member.user;
      welcomer.send(`**Welcome To __Dalida__ Server ..**`);          
       }
 });
